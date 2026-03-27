@@ -39,10 +39,13 @@ Desactivado para impedir borrar la rama
 
 ### develop
 **Require a pull request before merging** \
-Nadie puede hacer push directo a la rama main, todo pasa por PR.
+Nadie puede hacer push directo a la rama develop, todo pasa por PR.
 
 **Require approvals** \
 Se define cuantas personas deben aprobar el PR. En este caso 1 ya que el equipo es de 2 personas.
+
+**Dismiss stale pull request approvals when new commits are pushed** \
+Si cambia el código, se borran las aprobaciones previas para que no se aprueven pull request con cambios realizados luego de ser aprovado
 
 **Require status checks to pass before merging** \
 El código debe pasar los checks de automatización para asegurar que el código funciona antes de mergear (por ejemplo, tests, builds, linters, etc)
@@ -201,3 +204,43 @@ git push --force-with-lease
 - Toda Issue debe tener vinculada la rama en la que se trabajó
 - Toda Issue debe tener el commit final que dió por finalizado el Issue
 
+
+# Github Actions
+## commitlint
+se desarrolló un commitlint para validar los mensajes en los commits y respectar las reglas de Conventional Commits
+
+### Estructura de validación
+todos los commits deben respetar la estructura de Conventional Commits:
+
+```
+type(scope): description
+type: description
+```
+
+type: feat|fix|docs|style|refactor|test|chore|ci|build
+scope: opcional, pero siempre un nombre de archivo o tarea. Si se escriben varios dará error. Si son multiples tareas y/o archivos, se utiliza sin scope.
+description: intentar respetar Conventional commits con descripciones correctas
+
+En caso de no estructurar correctamente un commit, Github action no permitirá el pull request y mostrará todos los commits con naming incorrecto:
+```
+❌ Invalid commit message
+Commit ID: $hash
+Message: $commit
+
+```
+
+También mostrará los que sean correctos:
+```
+Checking commit: $hash
+$commit
+✅ Valid
+```
+Si surge un error en alguna parte, mostrará el mensaje final:
+```
+❌ Found $errors invalid commit(s)
+```
+
+Si no hay errores, mostrará el mensaje final:
+```
+✅ All commit messages are valid
+```
