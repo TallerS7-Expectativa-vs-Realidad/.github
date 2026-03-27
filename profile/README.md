@@ -1,7 +1,7 @@
 ## Organización del proyecto
 
-Project => https://github.com/orgs/TallerS7-Expectativa-vs-Realidad/projects/2/views/1
-Repositorio (S7) => https://github.com/TallerS7-Expectativa-vs-Realidad/S7-Sistema-de-Prestamos-y-Multas/tree/develop
+- Project => https://github.com/orgs/TallerS7-Expectativa-vs-Realidad/projects/2/views/1
+- Repositorio (S7) => https://github.com/TallerS7-Expectativa-vs-Realidad/S7-Sistema-de-Prestamos-y-Multas/tree/develop
 
 ### Documentos
 - [CONTRIBUTING.md](https://github.com/TallerS7-Expectativa-vs-Realidad/.github/blob/main/profile/CONTRIBUTING.md): reglas de flujo y organización de trabajo.
