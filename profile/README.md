@@ -1,7 +1,8 @@
 ## Organización del proyecto
 
-- Project => https://github.com/orgs/TallerS7-Expectativa-vs-Realidad/projects/2/views/1
-- Repositorio (S7) => https://github.com/TallerS7-Expectativa-vs-Realidad/S7-Sistema-de-Prestamos-y-Multas/tree/develop
+- Repositorio Principal (Biblioteca) => https://github.com/TallerS7-Expectativa-vs-Realidad/S7-Sistema-de-Prestamos-y-Multas/tree/develop
+- Project Biblioteca => https://github.com/orgs/TallerS7-Expectativa-vs-Realidad/projects/2/views/1
+- Repositorio Karate => https://github.com/TallerS7-Expectativa-vs-Realidad/karate-automationexercise
 
 ### Documentos
 - [PRD.md](https://github.com/TallerS7-Expectativa-vs-Realidad/S7-Sistema-de-Prestamos-y-Multas/blob/develop/PRD.md): PRD del proyecto.
@@ -13,3 +14,4 @@
 
 ### Documentos extras
 - [CONTRIBUTING.md](https://github.com/TallerS7-Expectativa-vs-Realidad/.github/blob/main/profile/CONTRIBUTING.md): reglas de flujo y organización de trabajo.
+- [README.md - Karate](https://github.com/TallerS7-Expectativa-vs-Realidad/karate-automationexercise/blob/main/README.md)
