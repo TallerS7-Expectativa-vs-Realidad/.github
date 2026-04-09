@@ -52,6 +52,7 @@ La base funcional y técnica del proyecto vive en el repositorio de arquitectura
 | TEST_PLAN | Estrategia general de validación del sistema | [TEST_PLAN.md](https://github.com/TallerS7-Expectativa-vs-Realidad/S7-Arquitectura/blob/develop/TEST_PLAN.md) |
 | TEST_CASES | Casos de prueba detallados para el MVP | [TEST_CASES.md](https://github.com/TallerS7-Expectativa-vs-Realidad/S7-Arquitectura/blob/develop/TEST_CASES.md) |
 | REALITY_CHECK | Resumen del trabajo iterativo y reflexión del sprint | [REALITY_CHECK.md](https://github.com/TallerS7-Expectativa-vs-Realidad/S7-Arquitectura/blob/develop/REALITY_CHECK.md) |
+| MANUAL_TESTING.md | Evidencia de tests manuales | [MANUAL_TESTING.md](https://github.com/TallerS7-Expectativa-vs-Realidad/S7-Arquitectura/blob/main/MANUAL_TESTING.md) |
 | CONTRIBUTING | Reglas de colaboración y organización del trabajo | [CONTRIBUTING.md](https://github.com/TallerS7-Expectativa-vs-Realidad/S7-Arquitectura/blob/develop/CONTRIBUTING.md) |
 
 ---
@@ -111,8 +112,11 @@ docker compose down
 
 - Organización GitHub: [TallerS7-Expectativa-vs-Realidad](https://github.com/orgs/TallerS7-Expectativa-vs-Realidad/repositories)
 - Tablero del proyecto: [Project Biblioteca](https://github.com/orgs/TallerS7-Expectativa-vs-Realidad/projects/2/views/1)
+- Reposiotrio Frontend: [S7-Frontend-Sis-Prestamos-y-Multas](https://github.com/TallerS7-Expectativa-vs-Realidad/S7-Frontend-Sis-Prestamos-y-Multas)
+- Reposiotrio Backend: [S7-Backend-Sis-Prestamos-y-Multas](https://github.com/TallerS7-Expectativa-vs-Realidad/S7-Backend-Sis-Prestamos-y-Multas)
 - Repositorio de automatización Karate: [README Karate](https://github.com/TallerS7-Expectativa-vs-Realidad/S7-Karate-Sis-Prestamos-y-Multas/blob/main/README.md)
-
+- Reposiotrio de automatización K6: [README K6](https://github.com/TallerS7-Expectativa-vs-Realidad/S7-K6-Sis-Prestamos-y-Multas/blob/main/README.md)
+- Reposiotrio de automatización Serenity: [README Serenity](https://github.com/TallerS7-Expectativa-vs-Realidad/S7-Serenity-Sis-Prestamos-y-Multas/blob/main/README.md)
 ---
 
 ## Equipo
