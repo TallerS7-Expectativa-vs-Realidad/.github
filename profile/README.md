@@ -4,7 +4,7 @@
 [![Backend](https://img.shields.io/badge/Backend-Node.js%20%2B%20Express-3c873a?style=flat-square)](https://github.com/TallerS7-Expectativa-vs-Realidad/S7-Backend-Sis-Prestamos-y-Multas/tree/develop)
 [![Frontend](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-0f766e?style=flat-square)](https://github.com/TallerS7-Expectativa-vs-Realidad/S7-Frontend-Sis-Prestamos-y-Multas)
 [![Base de datos](https://img.shields.io/badge/DB-PostgreSQL-336791?style=flat-square)](https://github.com/TallerS7-Expectativa-vs-Realidad/S7-Arquitectura/tree/develop)
-[![QA](https://img.shields.io/badge/QA-K6%20%7C%20Karate-7c3aed?style=flat-square)](https://github.com/orgs/TallerS7-Expectativa-vs-Realidad/repositories)
+[![QA](https://img.shields.io/badge/QA-K6%20%7C%20Karate%20%7C%20Serenity-7c3aed?style=flat-square)](https://github.com/orgs/TallerS7-Expectativa-vs-Realidad/repositories)
 
 Espacio principal del taller para el proyecto Biblioteca, enfocado en construir un MVP funcional para la gestión de préstamos, devoluciones tardías y multas de lectores.
 
@@ -23,6 +23,7 @@ El trabajo del equipo se distribuye entre documentación funcional, implementaci
 | Frontend | Aplicación React para operar el flujo del sistema desde interfaz web | [S7-Frontend-Sis-Prestamos-y-Multas](https://github.com/TallerS7-Expectativa-vs-Realidad/S7-Frontend-Sis-Prestamos-y-Multas) |
 | Pruebas K6 | Suite de pruebas de carga y rendimiento para los endpoints del sistema | [S7-K6-Sis-Prestamos-y-Multas](https://github.com/TallerS7-Expectativa-vs-Realidad/S7-K6-Sis-Prestamos-y-Multas) |
 | Pruebas Karate | Automatización de pruebas API para escenarios funcionales del MVP | [S7-Karate-Sis-Prestamos-y-Multas](https://github.com/TallerS7-Expectativa-vs-Realidad/S7-Karate-Sis-Prestamos-y-Multas) |
+| Pruebas Serenity | Automatización E2E de interfaz con Serenity BDD para escenarios funcionales del MVP | [S7-Serenity-Sis-Prestamos-y-Multas](https://github.com/TallerS7-Expectativa-vs-Realidad/S7-Serenity-Sis-Prestamos-y-Multas) |
 | GitHub Project | Tablero de seguimiento del taller y organización del backlog | [Project Biblioteca](https://github.com/orgs/TallerS7-Expectativa-vs-Realidad/projects/2/views/1) |
 
 ---
